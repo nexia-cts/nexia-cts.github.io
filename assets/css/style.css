@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#icon {
+    width: 150px;
+    height: 150px;
+
+    border-radius: 13px;
+    border-color: black;
+    border-style: solid;
+    cursor: w-resize;
+}
+
+.content {
+    margin-top: 0.9rem;
+
+    max-width: -moz-fit-content; /* For Firefox */
+    max-width: fit-content; /* Standard syntax */
+    margin-left: auto;
+    margin-right: auto;
+    margin-inline: auto;
+
+    text-align: center;
+    
+}
+
+body {
+    line-height: inherit;
+
+    background-image: linear-gradient(to right bottom, #15002b, #1c052e, #240831, #2c0934, #350936);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+    font-family: 'Noto Sans';
+}
+
+h1 {
+    margin-block-end: 0.25em;
+
+    color: white;
+    text-shadow: 1px 1px black;
+
+    font-family: 'Readex Pro';
+}
+
+p{
+    color: white;
+    margin-block-end: 0.2em;
+    text-shadow: 2px 2px black;
+    font-size: 17px;
+}
+
+h4, h3, h2 {
+    color: white;
+    margin-block-end: 0.2em;
+    text-shadow: 2px 2px black;
+}
